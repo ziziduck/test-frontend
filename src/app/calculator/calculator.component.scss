@@ -1,0 +1,134 @@
+.BG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#202124;
+    .test {
+        height: 580px;
+        width: 400px;
+        float: left;
+        position: relative;
+        top: 10px;
+        left: 1%;
+        background-color:rgb(0, 0, 0);
+        border-color: azure;    //邊框顏色
+        .test_show::-webkit-input-placeholder { //::-webkit-input-placeholder是chrome、Safari改變input顏色的方法
+            color: rgb(255, 255, 255);
+        }
+        .test_show {
+            height: 100px;
+            width: 400px;
+            font-size:48px;
+            text-align: right;  //input內文字位置
+            padding:10px;   //內距
+            background-color:rgb(0, 0, 0);  //背景顏色
+        }
+        .test_tr {
+            height: 100px;
+            width: 400px;
+            border:rgb(255, 255, 255);
+            text-align: center;
+            display: block;
+            .btn {
+                height: 70px;
+                width: 80px;
+                color: white;
+                font-size: 36px;
+                border-color: black;
+                background-color: rgb(71, 71, 71);
+            }
+            .btn_cc:active {
+                height: 70px;
+                width: 80px;
+                color: rgb(255, 255, 255);
+                font-size: 36px;
+                border-color: rgb(0, 0, 0);
+                background-color: rgb(124, 124, 124);
+                transition:background-color 0.1s;
+            }
+            .Z {
+                width: 160px;
+            }
+            .Z_cc:active {
+                width: 160px;
+                color: rgb(255, 255, 255);
+                font-size: 36px;
+                border-color: rgb(0, 0, 0);
+                background-color: rgb(124, 124, 124);
+                transition:background-color 0.1s;
+            }
+            .btn_symbol_col {
+                height: 70px;
+                width: 80px;
+                color: white;
+                font-size: 36px;
+                border-color: black;
+                background-color: orange;
+            }
+            .btn_symbol_row {
+                height: 70px;
+                width: 80px;
+                color: rgb(255, 255, 255);
+                font-size: 36px;
+                border-color: black;
+                background-color: rgb(46, 46, 46);
+            }
+            .symbol_cc:active {
+                height: 70px;
+                width: 80px;
+                color: rgb(255, 255, 255);
+                font-size: 36px;
+                border-color: black;
+                background-color: rgb(85, 85, 85);
+                transition:background-color 0.1s;
+            }
+            .btn_symbol_row2 {
+                height: 70px;
+                width: 80px;
+                color: rgb(0, 0, 0);
+                font-size: 36px;
+                border-color: black;
+                background-color: darkgray;
+            }
+            .symbol2_cc:active {
+                height: 70px;
+                width: 80px;
+                color: rgb(0, 0, 0);
+                font-size: 36px;
+                border-color: black;
+                background-color: rgb(212, 212, 212);
+                transition:background-color 0.1s;
+            }
+        }
+    }
+    .history {
+        height: 580px;
+        width: 400px;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 40%;
+        background-color:rgb(0, 0, 0);
+        border-color: azure;    //邊框顏色
+        .history_show::-webkit-input-placeholder { //::-webkit-input-placeholder是chrome、Safari改變input顏色的方法
+        color: rgb(255, 255, 255);
+        }.history_show {
+            height: 100px;
+            width: 400px;
+            font-size:48px;
+            overflow:hidden;
+            text-align: left;  //input內文字位置
+            padding:10px;   //內距
+            color: rgb(255, 255, 255);
+            background-color:rgb(0, 0, 0);  //背景顏色
+        }.hist {
+            height: 480px;
+            width: 400px;
+            font-size:24px;
+            text-align: left;  //input內文字位置
+            padding:10px;   //內距
+            color: rgb(255, 255, 255);
+            background-color:rgb(0, 0, 0);  //背景顏色
+        }
+    }
+}

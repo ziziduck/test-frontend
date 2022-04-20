@@ -1,0 +1,49 @@
+<div class="BG">
+    <div nz-row class="test">
+        <div>
+            <input nz-input class="test_show" [placeholder]="result">
+        </div>
+        <div class="test_setbtn" >
+            <div nz-row class="test_tr">
+                <button nz-button nzType="default" class="btn_symbol_row symbol_cc" nzShape="round" nzSize="large" (click)="addMemory('m+')">m+</button>
+                <button nz-button nzType="default" class="btn_symbol_row2 symbol2_cc" nzShape="round" nzSize="large" (click)="clear('ac')">AC</button>
+                <button nz-button nzType="default" class="btn_symbol_row2 symbol2_cc" nzShape="round" nzSize="large" (click)="addSymbol('±')">±</button>
+                <button nz-button nzType="default" class="btn_symbol_row2 symbol2_cc" nzShape="round" nzSize="large" (click)="addSymbol('%')">%</button>
+                <button nz-button nzType="default" class="btn_symbol_col" nzShape="round" nzSize="large" (click)="addSymbol('÷')">÷</button>
+            </div>
+            <div nz-row class="test_tr">
+                <button nz-button nzType="default" class="btn_symbol_row symbol_cc" nzShape="round" nzSize="large" (click)="addMemory('m-')">m-</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('7')">7</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('8')">8</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('9')">9</button>
+                <button nz-button nzType="default" class="btn_symbol_col" nzShape="round" nzSize="large" (click)="addSymbol('×')">×</button>
+            </div>
+            <div nz-row class="test_tr">
+                <button nz-button nzType="default" class="btn_symbol_row symbol_cc" nzShape="round" nzSize="large" (click)="addMemory('mc')">mc</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('4')">4</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('5')">5</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('6')">6</button>
+                <button nz-button nzType="default" class="btn_symbol_col" nzShape="round" nzSize="large" (click)="addSymbol('-')">-</button>
+            </div>
+            <div nz-row class="test_tr">
+                <button nz-button nzType="default" class="btn_symbol_row symbol_cc" nzShape="round" nzSize="large" (click)="addMemory('mr')">mr</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('1')">1</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('2')">2</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('3')">3</button>
+                <button nz-button nzType="default" class="btn_symbol_col" nzShape="round" nzSize="large" (click)="addSymbol('+')">+</button>
+            </div>
+            <div nz-row class="test_tr">
+                <button nz-button nzType="default" class="btn_symbol_row symbol_cc" nzShape="round" nzSize="large" (click)="addMemory('ms')">ms</button>
+                <button nz-button nzType="default" class="btn Z Z_cc" nzShape="round" nzSize="large" (click)="addNum('0')">0</button>
+                <button nz-button nzType="default" class="btn btn_cc" nzShape="round" nzSize="large" (click)="addNum('.')">.</button>
+                <button nz-button nzType="default" class="btn_symbol_col" nzShape="round" nzSize="large" (click)="addSymbol('=')">=</button>
+            </div>
+        </div>
+    </div>
+    <div class="history">
+        <div>
+            <textarea  class="history_show">{{hist}}</textarea> 
+        </div>
+        <textarea  class="hist">{{hist}}</textarea> 
+    </div>
+</div>

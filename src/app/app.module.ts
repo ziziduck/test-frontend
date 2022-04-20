@@ -9,13 +9,15 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NzButtonModule } from 'ng-zorro-antd/button'
+import { NzButtonModule } from 'ng-zorro-antd/button';
+import { CalculatorComponent } from './calculator/calculator.component'
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalculatorComponent
   ],
   imports: [
     NzButtonModule,
