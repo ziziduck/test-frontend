@@ -10,21 +10,25 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzButtonModule } from 'ng-zorro-antd/button';
-import { CalculatorComponent } from './calculator/calculator.component'
+import { CalculatorComponent } from './calculator/calculator.component';
+import { MainComponent } from './main/main.component';
+import { AppRoutingModule } from './app-routing.module'
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    MainComponent
   ],
   imports: [
     NzButtonModule,
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
