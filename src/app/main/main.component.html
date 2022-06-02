@@ -1,1 +1,79 @@
-<p>main works!</p>
+<nz-layout>
+  <nz-sider nzCollapsible nzWidth="200px" [nzTheme]="dark ? 'light' : 'dark'">
+    <div class="logo">
+      <nz-input-group class="logo-input" nzSearch [nzAddOnAfter]="suffixIconButton">
+        <input type="text" nz-input placeholder=""/>
+      </nz-input-group>
+      <ng-template #suffixIconButton>
+        <button nz-button nzType="primary" nzSearch>
+          <i nz-icon nzType="search"></i>
+        </button>
+      </ng-template>
+    </div>
+    <div class="sider-div">
+      <ul nz-menu [nzMode]="mode ? 'vertical' : 'inline'" [nzTheme]="dark ? 'light' : 'dark'">
+        <li nz-submenu nzTitle="About Me" nzIcon="meh">
+          <ul>
+            <li nz-menu-group nzTitle="Item 1">
+              <ul>
+                <li nz-menu-item routerLink="/main/calculator">Option 1</li>
+                <li nz-menu-item routerLink="/main/page404">Option 2</li>
+              </ul>
+            </li>
+            <li nz-menu-group nzTitle="Item 2">
+              <ul>
+                <li nz-menu-item>Option 3</li>
+                <li nz-menu-item>Option 4</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Resource" nzIcon="appstore">
+          <ul>
+            <li nz-menu-item>Option 5</li>
+            <li nz-menu-item>Option 6</li>
+            <li nz-submenu nzTitle="Submenu">
+              <ul>
+                <li nz-menu-item>Option 7</li>
+                <li nz-menu-item>Option 8</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Setting" nzIcon="setting">
+          <ul>
+            <li nz-menu-item>Option 9</li>
+            <li nz-menu-item>Option 10</li>
+            <li nz-menu-item>Option 11</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nz-sider>
+  <nz-layout>
+    <nz-header>
+      <ul nz-menu nzTheme="dark" nzMode="horizontal" class="header-menu" [nzTheme]="dark ? 'light' : 'dark'">
+        <li nz-menu-item nzSelected routerLink="/main/home">nav 1</li>
+        <li nz-menu-item>nav 2</li>
+        <li nz-menu-item>nav 3</li>
+        <nz-switch [(ngModel)]="mode"></nz-switch>
+        Change Mode
+        <nz-divider nzType="vertical"></nz-divider>
+        <nz-switch [(ngModel)]="dark"></nz-switch>
+        Change Theme
+      </ul>
+    </nz-header>
+    <nz-content>
+      <nz-breadcrumb>
+        <nz-breadcrumb-item>User</nz-breadcrumb-item>
+        <nz-breadcrumb-item>宗諒</nz-breadcrumb-item>
+      </nz-breadcrumb>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+    <nz-footer>
+    </nz-footer>
+  </nz-layout>
+</nz-layout>
+<!--relativeTo路徑使用-->

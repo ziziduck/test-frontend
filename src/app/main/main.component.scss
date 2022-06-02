@@ -1,0 +1,42 @@
+nz-header {
+  padding: 0;
+}
+
+nz-content {
+  margin: 0 16px;
+}
+
+nz-breadcrumb {
+  margin: 16px 0;
+}
+
+nz-footer {
+  text-align: center;
+}
+
+nz-layout {
+  height: 100%;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  
+  .logo-input {
+    color: aliceblue;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.inner-content {
+  height: 90%;
+  overflow: auto; //自動使用滾動軸
+
+  padding: 24px;
+  background: #fff;
+}
+
+nz-sider {
+  overflow:auto;
+}

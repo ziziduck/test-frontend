@@ -1,5 +1,21 @@
+# 0.1版本更新
+切版
+    1.左    選單(輸入框)
+    2.上    選單(按鈕、switch)
+    3.中    頁面元件(calculator、page404、home)
+
+功能
+    1.頁面元件切換功能
+    2.下拉式子選單
+    3.側邊收合選單
+    4.切換主題和選單呈現方式的switch
+
+
+
+
 # Router 換頁面
 `https://ithelp.ithome.com.tw/articles/10193649`
+`https://matthung0807.blogspot.com/2019/06/angular-7-router.html`
 
 
 
