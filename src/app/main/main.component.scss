@@ -31,7 +31,7 @@ nz-layout {
 
 .inner-content {
   height: 90%;
-  overflow: auto; //自動使用滾動軸
+  overflow: hidden; //自動使用滾動軸
 
   padding: 24px;
   background: #fff;

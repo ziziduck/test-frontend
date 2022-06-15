@@ -1,12 +1,10 @@
-<nz-input-group nzSearch [nzAddOnAfter]="suffixIconButton">
-<input type="text" nz-input placeholder="input search text" />
-</nz-input-group>
-<ng-template #suffixIconButton>
-<button nz-button nzType="primary" nzSearch>
-    <i nz-icon nzType="search"></i>
-</button>
-</ng-template>
-<button nz-button nzType="primary" nzShape="round">
-    <i nz-icon nzType="download"></i>
-    Download
-</button>
+<div class="w3-display-container">
+<img class="mySlides" src="../../../assets/img/Dead.jpg">
+<img class="mySlides" src="../../../assets/img/Hands_Touching.jpg">
+<div class="left">
+    <a class="btn-left" (click)="plusDivs(-1)">&#10094;</a>
+</div>
+<div class="right">
+    <a class="btn-right" (click)="plusDivs(1)">&#10095;</a>
+</div>
+</div>

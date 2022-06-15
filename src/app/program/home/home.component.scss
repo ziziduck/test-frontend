@@ -1,0 +1,42 @@
+.mySlides {
+    vertical-align: middle;
+    position: center;
+    width: 100%;
+
+}
+.btn-left {
+    display: inline-block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0, );
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    border-radius: 0%;
+    cursor: pointer;
+    font-size: 48px;
+}
+.btn-right {
+    display: inline-block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    border-radius: 0%;
+    cursor: pointer;
+    font-size: 48px;
+}
+.left {
+    position: absolute;
+    left: 18%;
+    top: 50%;
+}
+.right {
+    position: absolute;
+    right: 4.5%;
+    top: 50%;
+}
