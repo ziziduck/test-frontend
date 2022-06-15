@@ -1,12 +1,12 @@
 # 0.2版本更新
-`home`(幻燈片功能)
-    功能
-        1.  自動、手動切換圖片
-    筆記
-        1.  全域變數要放在 export class 的下面
-        2.  在 export class 的下面的 function 要特別標註 function
-        3.  使用 x.style.display 會出現(類型 'Element' 沒有屬性 'style')的 error 是因為 x 沒有宣告類型(Ex: any)
-        4.  document.getElementsByClassName 可以用來取得指定 class name 的元素
+`home`(幻燈片功能)  
+    功能  
+        1.  自動、手動切換圖片  
+    筆記  
+        1.  全域變數要放在 export class 的下面  
+        2.  在 export class 的下面的 function 要特別標註 function  
+        3.  使用 x.style.display 會出現(類型 'Element' 沒有屬性 'style')  的 error 是因為 x 沒有宣告類型(Ex: any)  
+        4.  document.getElementsByClassName 可以用來取得指定 class name 的元素  
     參考 
         1.  http://www.w3bai.com/zh-TW/w3css/w3css_slideshow.html
 
@@ -41,8 +41,8 @@
 
 
 # Router 換頁面
-`https://ithelp.ithome.com.tw/articles/10193649`
-`https://matthung0807.blogspot.com/2019/06/angular-7-router.html`
+https://ithelp.ithome.com.tw/articles/10193649
+https://matthung0807.blogspot.com/2019/06/angular-7-router.html
 
 
 
