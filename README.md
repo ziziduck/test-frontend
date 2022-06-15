@@ -1,7 +1,7 @@
 # 0.2版本更新
-`home`(幻燈片功能)  
-    >功能  
-        >>1.  自動、手動切換圖片  
+*`home`(幻燈片功能)  
+    *功能  
+        *1.  自動、手動切換圖片  
     筆記  
         1.  全域變數要放在 export class 的下面  
         2.  在 export class 的下面的 function 要特別標註 function  
