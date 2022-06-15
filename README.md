@@ -1,41 +1,41 @@
 # 0.2版本更新
-*`home`(幻燈片功能)  
-    *功能  
-        *1.  自動、手動切換圖片  
-    筆記  
+* `home`(幻燈片功能)  
+    * 功能  
+        1.  自動、手動切換圖片  
+    * 筆記  
         1.  全域變數要放在 export class 的下面  
         2.  在 export class 的下面的 function 要特別標註 function  
         3.  使用 x.style.display 會出現(類型 'Element' 沒有屬性 'style')  的 error 是因為 x 沒有宣告類型(Ex: any)  
         4.  document.getElementsByClassName 可以用來取得指定 class name 的元素  
-    參考 
+    * 參考 
         1.  http://www.w3bai.com/zh-TW/w3css/w3css_slideshow.html
   
 # 0.1版本更新  
-`main`(主頁面功能)  
-    切版  
+* `main`(主頁面功能)  
+    * 切版  
         1.  左選單(輸入框)  
         2.  上選單(按鈕、switch)  
         3.  中頁面元件(calculator、page404、home)  
-    功能  
+    * 功能  
         1.  頁面元件切換功能  
         2.  下拉式子選單  
         3.  側邊收合選單  
         4.  切換主題和選單呈現方式的switch  
-    筆記  
+    * 筆記  
         1.  [nzMode] 控制選單垂直或下拉顯示  
         2.  [nzTheme] 控制主題顏色  
   
-`calculator`(計算機功能)  
-    功能  
+* `calculator`(計算機功能)  
+    * 功能  
         1.  基本四則運算(包含小數點)  
         2.  M加減  
         3.  歷史紀錄  
         4.  清除  
   
-`page404`(錯誤路徑功能)  
-    功能  
+* `page404`(錯誤路徑功能)  
+    * 功能  
         1.  將沒有在 app-routing.module.ts 的 const routes: Routes = [{}] 裡的 path 導入到 page404  
-    筆記  
+    * 筆記  
         1.  '**' 是指所有未指定的路徑  
   
 
