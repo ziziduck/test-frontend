@@ -42,11 +42,25 @@
 
 # Router 換頁面
 https://ithelp.ithome.com.tw/articles/10193649
-https://matthung0807.blogspot.com/2019/06/angular-7-router.html
-
-
-
-# Test
+https://matthung0807.blogspot.com/2019/06/angular-7-router.html  
+  
+  
+# 初始化  
+終端機視窗，輸入`npm install`  
+安裝 Angular，只須一次 `npm install -g @angular/cli`  
+  
+# 新增組件  
+## 元件  
+終端機視窗，輸入`ng g c {目錄}\{元件名稱}`  
+## 服務  
+終端機視窗，輸入`ng g s {目錄}\{服務名稱}`  
+  
+# 第三方套件  
+## NG-ZORRO  
+終端機視窗，輸入`ng add ng-zorro-antd`  
+  
+  
+# Test  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 

@@ -23,6 +23,7 @@ import { NzSwitchModule } from 'ng-zorro-antd/switch';
 import { Page404Component } from './program/page404/page404.component';
 import { HomeComponent } from './program/home/home.component';
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { LoginComponent } from './program/login/login.component';
 
 registerLocaleData(en);
 
@@ -32,7 +33,8 @@ registerLocaleData(en);
     CalculatorComponent,
     MainComponent,
     Page404Component,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
