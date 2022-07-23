@@ -1,3 +1,24 @@
+# 0.3版本更新
+* `login`(登入功能)  
+    * 功能  
+        1.  
+    * 筆記  
+        1.  當ts中 `property '...' has no initializer and is not definitely assigned in the constructor` 在 `tsconfig.json` 中加入 `"strictPropertyInitialization":false`
+        2.  當ts中出現 `Object is possibly 'null'` 可加入 `?` 來解決
+    * 參考 
+        1.  https://blog.csdn.net/weixin_45202083/article/details/109460698 (前後端分離登入)
+        2.  https://ithelp.ithome.com.tw/articles/10195280 (Reactive Forms)
+        3.  https://abgne.tw/angularjs/angularjs-getting-stared/ng-submit.html (ng-submit)
+        4.  https://www.w3school.com.cn/tags/att_label_for.asp (HTML <label> 標籤的for 屬性)
+
+* `register`(註冊功能)  
+    * 功能  
+        1.   
+    * 筆記  
+        1.  
+    * 參考 
+        1.  
+
 # 0.2版本更新
 * `home`(幻燈片功能)  
     * 功能  
